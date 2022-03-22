@@ -1,0 +1,36 @@
+
+    .ball{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: red;
+        position: relative;
+        left: 365px;
+        bottom: 45px;
+        transition: transform 2s ease-in-out 0.3s;
+
+
+    }
+    .filed:hover .ball {
+        transform: translate(800px,-200px);
+
+    }    
+    
+    .bat{
+        transition: transform 0.2s ease-in-out;
+    }
+
+    .bat:hover{
+        transform: rotate(-60deg);
+        transform-origin: 100% 0% ;
+
+
+    }
+    .ms-dhoni{
+        text-align: center;
+        color: yellow;
+        font-size: 70PX;
+
+        
+    }
+  
